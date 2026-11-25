@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Airflow
+logs/
+airflow.cfg
+airflow.db
+webserver_config.py
+
+# Docker и данные
+.env
+raw/
+quality/
+postgres_data/
+
+# IDE и ОС
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
